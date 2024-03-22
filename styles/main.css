@@ -9,3 +9,9 @@ p {
 .important {
         font-size: larger; color: deepskyblue;
 }
+    ul  {
+        border: 5px solid brown;
+        width: 750px;
+        padding: 20px;
+
+}
