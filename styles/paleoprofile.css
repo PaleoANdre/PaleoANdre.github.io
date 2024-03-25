@@ -1,0 +1,8 @@
+body {
+    h1{
+        border-bottom: 10px solid darkblue;
+    }
+    h2{
+        border-bottom: 5px solid black;
+    }
+}
