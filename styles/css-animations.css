@@ -53,7 +53,18 @@
     border-radius: 50%;
     width: 40px;
     height: 40px;
+    animation: youspinme 5s infinite;
 }
+@keyframes youspinme {
+    from{
+        transform: rotate(0deg)
+    }
+
+    to{
+        transform: rotate(360deg)
+    }
+}
+
 
 /* Task 5: Fading Gallery */
 .fading-gallery {
