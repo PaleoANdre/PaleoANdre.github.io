@@ -15,9 +15,15 @@ for (let i = 0; i <= 50; i+=2){
 }
 
 console.log("Task 4");
-sumAllTheseotherNumberspls = 0;
+let totalsum = 0;
 for (let i = 1; i <= 100; i++){
-    sumAllTheseotherNumberspls = sumAllTheseotherNumberspls + i;
-    console.log("" + sumAllTheseotherNumberspls)
+    totalsum = totalsum + i;
 }
+console.log("" + totalsum);
+
 console.log("Task 5");
+let factorial = 1;
+for (let i =1; i <=10; i++){
+    factorial = factorial*i;
+    console.log(factorial)
+}
