@@ -25,5 +25,14 @@ console.log("Task 5");
 let factorial = 1;
 for (let i =1; i <=10; i++){
     factorial = factorial*i;
-    console.log(factorial)
+    console.log(factorial);
 }
+console.log("Task 6");
+let arr = [];
+console.log("Task 7");
+
+console.log("Task 8");
+
+console.log("Task 9");
+
+console.log("Task 10");
