@@ -1,0 +1,10 @@
+div.header{
+display: flex;
+justify-content:center;
+height: 100px;
+background-color: red;
+background-image:
+        linear-gradient(
+      red, #f06d06
+    );
+}
