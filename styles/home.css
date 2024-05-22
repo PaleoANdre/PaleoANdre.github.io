@@ -17,7 +17,26 @@ nav a{
   color: white;
   font-size: larger;
 }
+div.title{
+  padding: 10em;
+  display: flex;
+  justify-content: center;
+  background-color: #092F5A;
+
+}
 img{
   width: auto;
   height: 300px;
+  display: flex;
+  justify-content: flex-end;
+}
+div.infobox-text{
+  display: flex;
+  justify-content: flex-end;
+  width: 100em;
+  height: 3em;
+}
+button{
+  display: flex;
+  justify-content: space-evenly;
 }
