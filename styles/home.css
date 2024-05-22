@@ -1,10 +1,23 @@
-header{
-display: flex;
-justify-content:center;
-height: 100px;
-background-color: red;
-background-image:
-        linear-gradient(
-      red, #f06d06
-    );
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+  height: 90px;
+  background-color: #043069;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+nav a{
+  padding: 0 30px;
+  color: white;
+  font-size: larger;
+}
+img{
+  width: auto;
+  height: 300px;
 }
