@@ -17,10 +17,13 @@ nav a{
   color: white;
   font-size: larger;
 }
+div.content{
+  margin-left: 100px;
+  margin-right: 100px;
+}
 div.title{
   padding: 10em;
   display: flex;
-  justify-content: center;
   background-color: #092F5A
 }
 div.main-page{
