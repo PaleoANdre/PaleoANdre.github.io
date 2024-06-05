@@ -1,1 +1,26 @@
- 
+ img{
+    width: 60px;
+    height:auto;
+ }
+ .nav {
+    padding: 60px;
+    background-color: #346EEB;
+ }
+ nav items{
+    display: flex;
+    justify-content:end;
+    
+ }
+ div.title{
+    padding:60px;
+    background-color: #3765C0;
+    text-align: center;
+ }
+ div.portal {
+    padding: 60px;
+    display:flex;
+    justify-content: center;
+ }
+ div.main-page{
+    padding-left: 50px;
+ }
