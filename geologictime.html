@@ -24,23 +24,25 @@
 
         <h2>Geological Periods</h2>
 
-        <p>
-            Planet Earth is 4.5 billion years old, and a way to represent this deep time is with the <strong>Geologic Time Scale</strong>. which organizes Earth's history depending on any fundamental changes in stratigraphy.
-            The geologic time scale is like a giant calendar for Earth's history, stretching back billions of years. It can seem complex, but here's a simplified breakdown:
-        </p>
+        <div class = "introduction">
+            <p>
+                Planet Earth is 4.5 billion years old, and a way to represent this deep time is with the <strong>Geologic Time Scale</strong>. which organizes Earth's history depending on any fundamental changes in stratigraphy.
+                The geologic time scale is like a giant calendar for Earth's history, stretching back billions of years. It can seem complex, but here's a simplified breakdown:
+            </p>
 
-        <ul>
-            <li> Eons - These are the biggest slices of time, scaling to thousands of millions of years. There are four main eons: Hadean, Archean, Proterozoic, and Phanerozoic (we're currently in the Phanerozoic Eon).</li>
-            <li> Eras - Think of these as subdivions within the eons, which span for hundreds of millions of years. For example, the Paleozoic Era is known for the rise of marine life.</li>
-            <li> Periods - These are smaller segments within the eras, and typically last for tens of millions of years. The Jurassic Period, for instance, is famous for its dinosaurs.</li>
-            <li> Epochs - The second smallest segment, found within periods and tending to be between 13 to 35 million years in length. Epoch names are often "Upper", "Middle", or "Lower". For example, the Cenozoic Era contains seven epochs</li>
-            <li> Ages- The smallest segment in the chronological order, these segments are usually only a few million years in length. Ages typically end with the suffix "-an"/"-ian".</li>
-        </ul>
+            <ul>
+                <li> Eons - These are the biggest slices of time, scaling to thousands of millions of years. There are four main eons: Hadean, Archean, Proterozoic, and Phanerozoic (we're currently in the Phanerozoic Eon).</li>
+                <li> Eras - Think of these as subdivions within the eons, which span for hundreds of millions of years. For example, the Paleozoic Era is known for the rise of marine life.</li>
+                <li> Periods - These are smaller segments within the eras, and typically last for tens of millions of years. The Jurassic Period, for instance, is famous for its dinosaurs.</li>
+                <li> Epochs - The second smallest segment, found within periods and tending to be between 13 to 35 million years in length. Epoch names are often "Upper", "Middle", or "Lower". For example, the Cenozoic Era contains seven epochs</li>
+                <li> Ages- The smallest segment in the chronological order, these segments are usually only a few million years in length. Ages typically end with the suffix "-an"/"-ian".</li>
+            </ul>
 
-        <img
-            src="images/time_scale.jpg"
-            alt="chart about geological time scale"
-        >
+            <img
+                src="images/time_scale.jpg"
+                alt="chart about geological time scale"
+            >
+        </div>
 
         <div>
             <h2>The History of Earth</h2>
@@ -50,22 +52,79 @@
             <!-- Slides -->
             <div class="mySlides fade">
                 <img src="images/cambrian.jpg">
-                <div class="text">Cambrian Period</div>
+                <div class="text">
+                    <h3>Cambrian Period</h3>
+                    <ul>
+                        <li>Time range: 540 - 485 million years ago</li>
+                        <li>Oxygen percentage: 30% below today</li>
+                        <li>Knwon for: World's First Super-Predators</li>
+                    </ul>
+                </div>
             </div>
 
             <div class="mySlides fade">
                 <img src="images/ordovician.jpg">
-                <div class="text">Ordovician Period</div>
+                <div class="text">
+                    <h3>Ordovician Period</h3>
+                    <ul>
+                        <li>Time range: 485 - 444 million years ago</li>
+                        <li>Oxygen percentage: 30% below today</li>
+                        <li>Knwon for: World's First Super-Predators</li>
+                    </ul>
+                </div>
             </div>
 
             <div class="mySlides fade">
                 <img src="images/Pterygotujs.jpg" style="width:100%">
-                <div class="text">Silurian Period</div>
+                <div class="text">
+                    <h3>Silurian Period</h3>
+                    <ul>
+                        <li>Time range: 444 - 419 million years ago</li>
+                        <li>Oxygen percentage: 30% below today</li>
+                        <li>Knwon for: Giant Arthropods and mollusks.</li>
+                    </ul>
+                </div>
             </div>
 
             <div class="mySlides fade">
                 <img src="images/Dunkleosteus.jpg" style="width:100%">
-                <div class="text">Devonian Period</div>
+                <div class="text">
+                    <h3>Devonian Period</h3>
+                    <ul>
+                        <li>Time range: 419 - 359 million years ago</li>
+                        <li>Oxygen percentage: 20% below today</li>
+                        <li>Knwon for: Giant Killer Fish</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/carboniferous.jpg" style="width:100%">
+                <div class="text">
+                    <h3>Carboniferous Period</h3>
+                    <ul>
+                        <li>Time range: 359 - 299 Million years ago</li>
+                        <li>Oxygen percentage: 40% Above Today</li>
+                        <li>Known for: Giant Insects</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/permian.jpg" style="width:100%">
+                <div class="text">
+                    <h3>Permian Period</h3>
+                    <ul>
+                        <li>Time range: 299 - 252 million years ago</li>
+                        <li>Clobal Temp.: 20% Colder than Today</li>
+                        <li>Known for: Volcanic Activity, Stem-mammals ruled the world.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="images/triassic.jpg" style="width:100%">
+                <div class="text">Triassic Period</div>
             </div>
 
             <!-- Navigation buttons -->
@@ -79,7 +138,10 @@
             <span class="dot" onclick="currentSlide(1)"></span> 
             <span class="dot" onclick="currentSlide(2)"></span> 
             <span class="dot" onclick="currentSlide(3)"></span> 
-            <span class="dot" onclick="currentSlide(4)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span> 
         </div>
     </div>
     <script src="scripts/geologic.js"></script>

@@ -19,8 +19,12 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'Triceratops',
             description: 'A herbivorous dinosaur known for its three horns and large bony frill.',
             image: 'images/trike.jpg'
+        },
+        {
+            name: 'Razanandrogobe',
+            description: 'A distinctive crocodylomorph that lived on the Middle Jurassic Madagascar. This terrifying carnviore preyed upon dinosaurs. Even if it looked similar to a crocodile, Razanandrongobe was actually a distant relative of modern day crocodiels. Its name means "Ancestor Large Lizard".',
+            image: 'images/razanandrongobe.jpg'
         }
-        // Add more dinos as needed
     ];
 
     const dinoListContainer = document.getElementById('dino-list-container');
