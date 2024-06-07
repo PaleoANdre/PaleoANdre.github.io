@@ -1,4 +1,73 @@
-img{
-    width: 100px;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    width: 100%;
+}
+
+nav .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+nav .nav.items a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.dino-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.dino-card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 200px;
+    text-align: center;
+}
+
+.dino-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dino-card img {
+    width: 100%;
     height: auto;
+}
+
+.dino-info {
+    padding: 15px;
+}
+
+.dino-info h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+.dino-info p {
+    font-size: 14px;
+    color: #666;
 }
