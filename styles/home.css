@@ -28,3 +28,74 @@ nav .nav.items a {
    text-decoration: none;
    margin-left: 20px;
 }
+nav .nav.items a:hover {
+   color: #346EEB;
+}
+.portal img{
+   width: 200px;
+}
+.hero {
+   width: 100%;
+   background: url('images/hero-background.jpg') no-repeat center center/cover;
+   color: white;
+   text-align: center;
+   padding: 100px 20px;
+}
+
+.hero h1 {
+   font-size: 48px;
+   margin: 0;
+}
+
+.hero p {
+   font-size: 24px;
+}
+.main-page {
+   width: 90%;
+   max-width: 1200px;
+   margin: 20px auto;
+}
+.introduction, .news{
+   background-color: white;
+   padding: 20px;
+   margin-bottom: 20px;
+   border-radius: 8px;
+   box-shadow: 0 2px 4px black;
+}
+.introduction h2, .news h2 {
+   font-size: 32px;
+   color: #333;
+}
+.portal {
+   display: flex;
+   justify-content: space-around;
+   margin-top: 20px;
+}
+.portal img{
+   width: 200px;
+   border-radius: 8px;
+   transition: transform 0.3s;
+}
+.portal img:hover{
+   transform: scale(1.05);
+}
+.news-image {
+   width: 100%;
+   max-width: 500px;
+   border-radius: 8px;
+   display: block;
+   margin: 20px auto;
+}
+.more-news-button {
+   display:block;
+   margin : 20px auto;
+   padding: 10px 20px;
+   background-color: #333;
+   color: white;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+.more-news-button:hover {
+   background-color: #2B2E33;
+}
