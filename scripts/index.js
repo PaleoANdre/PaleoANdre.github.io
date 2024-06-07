@@ -1,9 +1,15 @@
-const moreArticles = [
+const additionalArticles = [
     {
         title: "SEXUAL DIMORPHISM OF PLACERIAS REVEALED",
         content: "New study reveals how tusks of the dycinodont Placerias revealed what gender it was.",
         imgSrc: "images/placerias.jpeg",
         imgAlt: "Placerias"
+    },
+    {
+        title: "NEW SPECIES OF ABELISAURID COEXISTED WITH CARNOTAURUS",
+        content: "A new abelisaurid was found in Argentina named Koleken inkayali, this dinosaur was a smaller relative to the more popular Carnotaurus, but unlike Carnotaurus, Koleken doesn't have any horns, and had one of the shortest arms of all dinosaurs. Koleken was named after Chief Inakayal of the Tehuelche Indigneous people of Patagonia, a region known for having rock layers from the Cretaceous period. ",
+        imgSrc: "images/koleken.jpg",
+        imgAlt: "Koleken"
     }
 ];
 

@@ -43,7 +43,45 @@
         >
 
         <div>
-            <h1>The History of Earth</h1>
+            <h2>The History of Earth</h2>
+        </div>
+        <div class="slideshow-container">
+
+            <!-- Slides -->
+            <div class="mySlides fade">
+                <img src="images/cambrian.jpg">
+                <div class="text">Cambrian Period</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/ordovician.jpg">
+                <div class="text">Ordovician Period</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/Pterygotujs.jpg" style="width:100%">
+                <div class="text">Silurian Period</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/Dunkleosteus.jpg" style="width:100%">
+                <div class="text">Devonian Period</div>
+            </div>
+
+            <!-- Navigation buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- Dots -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
+        </div>
+    </div>
     <script src="scripts/geologic.js"></script>
 </body>
 </html>
