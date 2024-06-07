@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             name: 'Triceratops',
             description: 'A herbivorous dinosaur known for its three horns and large bony frill.',
-            image: 'images/triceratops.jpg'
+            image: 'images/trike.jpg'
         }
         // Add more dinos as needed
     ];

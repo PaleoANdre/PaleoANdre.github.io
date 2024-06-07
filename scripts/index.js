@@ -2,7 +2,7 @@ const additionalArticles = [
     {
         title: "SEXUAL DIMORPHISM OF PLACERIAS REVEALED",
         content: "New study reveals how tusks of the dycinodont Placerias revealed what gender it was.",
-        imgSrc: "images/placerias.jpeg",
+        imgSrc: "images/placerias.jpg",
         imgAlt: "Placerias"
     },
     {
