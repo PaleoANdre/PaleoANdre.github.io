@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             name: 'Tyrannosaurus',
-            description: 'One of the most feared carnivores of the Cretaceous period.',
+            description: 'Measuring over 12m long and weighing over 10 tons. Tyrannosaurus was one of the most fearsome carnivorous dinosaurs from the Mesozoic.',
             image: 'images/trex2.jpg'
         },
         {
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             name: 'Triceratops',
-            description: 'A herbivorous dinosaur known for its three horns and large bony frill.',
+            description: 'One of the largest and most common dinosaurs of its ecosystem, the Hell Creek Formation, meaning this dinosaur flourished during the Late Cretaceous. Triceratops weighed as much as 10 tons, and its skull alone was more than 2m long, with some measuring over 2.5m.',
             image: 'images/trike.jpg'
         },
         {
